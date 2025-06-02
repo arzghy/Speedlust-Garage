@@ -1,4 +1,4 @@
-export const content = ["./index.html"];
+export const content = ["./main/route/**/*.html"];
 export const theme = {
     extend: {
         keyframes: {
