@@ -1,12 +1,13 @@
 {
     "version": 2,
+    "public": true,
     "builds": [
         {
-        "src": "main/index.html",
+        "src": "main/**",
         "use": "@vercel/static"
         }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "/main/index.html" }
+        { "src": "/(.*)", "dest": "/main/$1" }
     ]
 }
