@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
             items
                 .map(
                 (p) => `
-                        <div class="group flex flex-col items-start gap-2 bg-white border border-gray-200 rounded-xl px-4 py-4 shadow-lg hover:shadow-2xl hover:shadow-gray-400/25 transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer overflow-hidden">
+                        <div class="group flex flex-col items-start gap-2 bg-white border border-gray-200 rounded-xl px-4 py-4 shadow-lg hover:shadow-2xl hover:shadow-gray-400/25 transform hover:-translate-y-2 hover:scale-95 transition-all duration-300 ease-in-out cursor-pointer overflow-hidden">
                             <img src="../img/${p.image}" alt="${p.description}" class="rounded-xl w-full h-auto" loading="lazy">
                             <p class="text-gray-800 font-semibold text-left w-full text-sm sm:text-base group-hover:text-[#131a2c] transition-colors duration-300">${p.description}</p>
                         </div>
