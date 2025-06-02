@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Speedlust Garage - Professional helmet washing services and motorcycle accessories">
+    <title>Speedlust Garage</title>
+    
+    <!-- Menghubungkan ke domain eksternal untuk pemuatan lebih cepat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    
+    <!-- Stylesheets -->
+    <link rel="icon" href="../img/iconWeb.png" type="image/png">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./marquee.css" media="print" onload="this.media='all'">
+    
+    <!-- Defer non-critical skrip -->
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="./button.js" defer></script>
+    <script src="./marquee.js" defer></script>
+    <script src="./scroll.js" defer></script>
+</head>
+<body>
+    <header class="bg-[#131a2c] py-4 px-4 lg:px-4 md:px-4 sm:px-4 sticky top-0 z-50">
+        <nav class="flex items-center justify-between">
+            <!-- Logo -->
+            <img src="/img/logoSpeedlust.svg" alt="Speedlust Garage" class="ml-3 sm:ml-16 h-10">
+        
+            <!-- Navigasi Bar -->
+            <ul class="hidden lg:flex items-center lg:space-x-12 mr-0 md:mr-10 text-lg font-medium">
+                <li><a href="#home" class="desktop-nav-link text-white transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300">
+                    Home
+                </a></li>
+                <li><a href="#service" class="desktop-nav-link text-white transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300">
+                    Service
+                </a></li>
+                <li><a href="#review" class="desktop-nav-link text-white transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300">
+                    Reviews
+                </a></li>
+                <li><a href="#contact" class="desktop-nav-link text-white transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300">
+                    Contact Us
+                </a></li>
+                <li><a href="./route/product.html" class="desktop-nav-link text-white transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all after:duration-300">
+                    Products
+                </a></li>
+            </ul>
+        
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="lg:hidden text-white" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i class="fa-solid fa-bars w-6 h-6 mr-0 sm:mr-16 py-2 -translate-x-2"></i>
+            </button>
+        </nav>
+    </header>
+    
+    <!-- Mobile Menu (mode mobile) -->
+    <nav id="mobile-menu" class="hidden lg:hidden fixed top-[60px] right-0 w-1/4 min-w-[200px] bg-[#131a2c] py-4 px-4 z-50 shadow-lg mobile-menu-animation">
+        <ul class="flex flex-col gap-2">   
+            <li><a href="#home" class="mobile-nav-link text-gray-300 hover:text-white">
+                Home
+            </a></li>
+            <li><a href="#service" class="mobile-nav-link text-gray-300 hover:text-white">
+                Service
+            </a></li>
+            <li><a href="#review" class="mobile-nav-link text-gray-300 hover:text-white">
+                Reviews
+            </a></li>
+            <li><a href="#contact" class="mobile-nav-link text-gray-300 hover:text-white">
+                Contact Us
+            </a></li>
+            <li><a href="./route/product.html" class="mobile-nav-link text-gray-300 hover:text-white">
+                Products
+            </a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- Container 1 (Home) -->
+        <section class="bg-[url('/img/container1.svg')] bg-cover bg-center min-h-screen">
+            <span id="home" class="-mt-16 block absolute"></span>
+            <div class="mx-auto px-4 sm:px-6 py-8 sm:py-12">
+                <div class="flex flex-col-reverse lg:flex-row items-start lg:items-center justify-between mt-16 sm:mt-20 lg:mt-28">
+                    <!-- Left Content -->
+                    <div class="lg:w-1/2 mb-10 ml-5 mr-6 md:ml-16 lg:ml-16 lg:mb-0 mt-8 sm:mt-10 lg:mt-0 cursor-default">
+                        <h1 class="text-4xl sm:text-4xl md:text-5xl font-bold text-[#1a3c34] leading-tight mb-4">
+                            Welcome to Helmet<br>Washing Services
+                        </h1>
+                        <p class="text-gray-600 text-justify font-bold mb-6 sm:mb-8 mt-4 max-w-lg">
+                            Your helmet deserves the best care! At Speedlust Garage, 
+                            we don't just clean – we refresh, protect, and level up your 
+                            helmet game.
+                        </p>
+                        <a href="https://www.tokopedia.com/speedlustgarage?channel=" target="_blank" rel="noopener" class="inline-block bg-[#131a2c] text-white font-medium py-2 sm:py-3 px-6 sm:px-8 rounded hover:bg-transparent hover:text-[#131a2c] hover:font-bold transition-all duration-200 hover:shadow-lg hover:-translate-y-1 hover:scale-105">
+                            Order Now!
+                        </a>
+                    </div>
+                        
+                    <!-- Right Content (Logo) -->
+                    <div class="lg:w-1/2 w-full flex justify-center lg:justify-end mr-0 lg:mr-16 mb-6 sm:mb-8 lg:mb-0">
+                        <img src="/img/iconSpeedlust.svg" alt="Speedlust Garage Logo" class="w-56 sm:w-64 md:w-80 transition-transform duration-300 hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Container 2 -->
+        <section class="mx-auto min-h-screen px-4 py-12 sm:py-16">
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16 cursor-default">
+                <!-- Bagian Kiri -->
+                <div class="lg:w-1/2 relative pl-0 -translate-x-4 items-start xl:-translate-x-4 lg:-translate-x-4 md:-translate-x-60 sm:-translate-x-9">
+                    <img src="/img/3-object-with-bg.svg" alt="Helmet" class="ml-0 md:ml-0 md:items-start sm:items-start mask-image-fade-bottom" loading="lazy">
+                </div>
+                <!-- Bagian Kanan -->
+                <div class="w-full px-4 sm:px-8 lg:w-2/5 lg:mr-16">
+                    <article class="bg-white rounded-3xl shadow-xl p-5 sm:p-6 md:p-7">
+                        <h2 class="text-2xl sm:text-3xl font-bold text-[#1a3c34] mb-4 sm:mb-5">Why Choose Speedlust Garage?</h2>
+                        
+                        <!-- Kartu 1 -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4 p-2 sm:p-3 bg-[#edf6f4] rounded-xl transition-transform duration-300 hover:scale-105">
+                            <div class="bg-[#e0f0ed] p-2 sm:p-2.5 rounded-full">
+                                <i class="fas fa-user-tie feature-icon text-base sm:text-lg" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-[#1a3c34] text-base sm:text-lg">Professional Helmet Cleaning</h3>
+                                <p class="text-gray-600 text-xs sm:text-sm">
+                                    We provide expert helmet cleaning services to keep your gear fresh, hygienic, and comfortable.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Kartu 2 -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4 p-2 sm:p-3 bg-[#edf6f4] rounded-xl transition-transform duration-300 hover:scale-105">
+                            <div class="bg-[#e0f0ed] p-2 sm:p-2.5 rounded-full">
+                                <i class="fas fa-check-circle feature-icon text-base sm:text-lg" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-[#1a3c34] text-base sm:text-lg">Premium Cleaning Products</h3>
+                                <p class="text-gray-600 text-xs sm:text-sm">
+                                    We use high-quality helmet shampoos and disinfectants to ensure a deep and safe clean.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Kartu 3 -->
+                        <div class="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4 p-2 sm:p-3 bg-[#edf6f4] rounded-xl transition-transform duration-300 hover:scale-105">
+                            <div class="bg-[#e0f0ed] p-2 sm:p-2.5 rounded-full">
+                                <i class="fas fa-cogs feature-icon text-base sm:text-lg" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-[#1a3c34] text-base sm:text-lg">Helmet Accessories Available</h3>
+                                <p class="text-gray-600 text-xs sm:text-sm">
+                                    Find a variety of helmet accessories, including visors, paddings, and ventilation kits.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Kartu 4 -->
+                        <div class="flex items-start gap-3 sm:gap-4 p-2 sm:p-3 bg-[#edf6f4] rounded-xl transition-transform duration-300 hover:scale-105">
+                            <div class="bg-[#e0f0ed] p-2 sm:p-2.5 rounded-full">
+                                <i class="fas fa-truck feature-icon text-base sm:text-lg" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-[#1a3c34] text-base sm:text-lg">Convenient Pick-Up & Delivery</h3>
+                                <p class="text-gray-600 text-xs sm:text-sm">
+                                    Enjoy hassle-free pick-up and delivery service for your helmet cleaning needs.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Container 3 (Service) -->
+        <section class="container mx-auto px-4 py-12 max-w-6xl min-h-screen -mb-24 sm:-mb-22 cursor-default">
+            <span id="service" class="-mt-16 block absolute"></span>
+            <!-- Heading -->
+            <div class="mb-12 sm:mb-8 md:mb-10 mx-4 sm:mx-6 md:ml-7 md:mr-16 translate-y-8 sm:translate-y-12 md:translate-y-24">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1a3c34] mb-3">Helmet Washing Services</h2>
+                <p class="text-[#7eb09d] text-base sm:text-lg max-w-2xl font-bold">
+                    Explore our range of helmet washing services, from basic cleaning to customization options.
+                </p>
+            </div>
+                
+            <!-- Kartu Service -->
+            <div class="relative mx-4 sm:mx-6 translate-y-8 sm:translate-y-12 md:translate-y-24">
+                <!-- Kartu Scrollable -->
+                <div class="services-marquee">
+                    <div class="services-track">
+                        <!-- Basic Cleaning -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Basic Cleaning</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 30.000</p>
+                            <p class="text-gray-600 font-bold">
+                                Revitalize your helmet with our thorough basic cleaning service.
+                            </p>
+                        </article>
+        
+                        <!-- Deep Cleaning -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Deep Cleaning</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 40.000</p>
+                            <p class="text-gray-600 font-bold">
+                                Give your helmet a deep cleanse to remove dirt and grime effectively.
+                            </p>
+                        </article>
+                        
+                        <!-- Treatment Wash -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Treatment Wash</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 30.000</p>
+                            <p class="text-gray-600 font-bold">
+                                Revitalize your helmet with our thorough basic cleaning service.
+                            </p>
+                        </article>
+                        
+                        <!-- Detailing & Coating Repair -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Detailing & Coating</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 40.000</p>
+                            <p class="text-gray-600 font-bold text-2">
+                                Give your helmet a deep cleanse to remove dirt and grime effectively.
+                            </p>
+                        </article>
+                        
+                        <!-- Resize Card -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Resize</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 30.000</p>
+                            <p class="text-gray-600 font-bold">
+                                Revitalize your helmet with our thorough basic cleaning service. 
+                            </p>
+                        </article>
+                        
+                        <!-- Repainting Card -->
+                        <article class="bg-[#f0f5f3] p-5 sm:p-6 md:p-8 rounded-lg flex-shrink-0 w-[280px] sm:w-[300px] md:w-[320px] mr-4">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#1a3c34] mb-1">Repainting</h3>
+                            <p class="text-[#7eb09d] mb-3 sm:mb-4 font-bold text-xl">Rp. 40.000</p>
+                            <p class="text-gray-600 font-bold">
+                                Give your helmet a deep cleanse to remove dirt and grime effectively.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Container 4 (Reviews) -->
+        <section class="bg-gray-900 px-4 sm:px-6 py-10 sm:py-12 md:py-16 lg:py-20 min-h-screen">
+            <span id="review" class="-mt-16 block absolute"></span>
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 md:ml-16 md:mr-16 cursor-default">
+                <!-- Heading -->
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-100 mb-3">Customer Reviews</h2>
+                <p class="text-gray-400 mb-8 sm:mb-10 max-w-2xl font-bold text-sm sm:text-base">
+                    Read what our satisfied customers have to say about our helmet washing service
+                </p>
+                
+                <!-- Reviews Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                    <!-- Review 1 -->
+                    <article class="bg-white rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4 transition-transform duration-300 hover:scale-105">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-blue-200 flex items-center justify-center">
+                                <img alt="Frederik profile photo" src="https://accounts.tokopedia.com/image/v1/u/6835685/user_thumbnail/desktop?ect=4g" class="rounded-full" loading="lazy" width="48" height="48">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900">Frederik</h3>
+                            <p class="text-gray-700 text-sm sm:text-base text-justify">
+                                Helmnya Original Arai Made In Jepang embos SNI, like new bgt dah gak ada baret, gak ada warna yg pudar, Visor Ori Clearnya satu terpasang dan satu dapat cadangan, buku ada, dus ada sarung helm ada, bonus Visor Sunglasses smoke anti silau - aialu dah, warna ini rare pula busa masih oke bgt puas..puas... puas. bonus di Coating
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Review 2 -->
+                    <article class="bg-white rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4 transition-transform duration-300 hover:scale-105">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-200 flex items-center justify-center">
+                                <img alt="rafly profile photo" src="https://accounts.tokopedia.com/image/v1/u/34412956/user_thumbnail/desktop?ect=4g" class="rounded-full" loading="lazy" width="48" height="48">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900">rafly</h3>
+                            <p class="text-gray-700 text-sm sm:text-base text-justify">
+                                udah 2 kali mau beli helm dengan model yang sama tapi selalu keduluan sama orang pas mau beli, pas nemu iklan helm ini galama langsung transaksi karena kondisinya bener2 mulus dan harganya juga good deal. terlalu cakep helmnya ini mah😂, thank you broo rekomended seller💯💯💯.
+                            </p>
+                        </div>
+                    </article>
+            
+                    <!-- Review 3 -->
+                    <article class="bg-white rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4 transition-transform duration-300 hover:scale-105">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-pink-200 flex items-center justify-center">
+                                <img alt="Dickson profile photo" src="https://accounts.tokopedia.com/image/v1/u/8390667/user_thumbnail/desktop?ect=4g" class="rounded-full" loading="lazy" width="48" height="48">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900">Dickson</h3>
+                            <p class="text-gray-700 text-sm sm:text-base text-justify">
+                                Barang sesuai, top sekali!
+                            </p>
+                        </div>
+                    </article>
+            
+                    <!-- Review 4 -->
+                    <article class="bg-white rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4 transition-transform duration-300 hover:scale-105">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-green-200 flex items-center justify-center">
+                                <img alt="Anonymous user profile photo" src="https://images.tokopedia.net/img/cache/100-square/default_v3-usrnophoto.png.webp?ect=4g" class="rounded-full" loading="lazy" width="48" height="48">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900">W***y</h3>
+                            <p class="text-gray-700 text-sm sm:text-base text-justify">
+                                Seller amanah, fast respon the best lah pokoknya 🙏🏼😁 packing nya super duper tebal dan aman mantap lah pokoknya 👍🏼😁
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            
+                <!-- Review 5 -->
+                <div class="mt-4 sm:mt-6 md:flex md:justify-center w-full">
+                    <article class="bg-white rounded-lg p-4 sm:p-6 flex items-start gap-3 sm:gap-4 w-full md:max-w-md transition-transform duration-300 hover:scale-105">
+                        <div class="flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-yellow-200 flex items-center justify-center">
+                                <img alt="rdsptra profile photo" src="https://accounts.tokopedia.com/image/v1/u/225226885/user_thumbnail/desktop?ect=4g" class="rounded-full" loading="lazy" width="48" height="48">
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900">rdsptra</h3>
+                            <p class="text-gray-700 text-sm sm:text-base text-justify">
+                                RECOMENDED SELLER!!!!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Link tokped -->  
+                <div class="mt-4 sm:mt-6 text-center lg:text-right px-4 sm:px-6 md:px-0 translate-y-5">
+                    <p class="text-white font-medium">More reviews on
+                        <span>
+                            <a href="https://www.tokopedia.com/speedlustgarage/review" class="text-teal-200 font-bold relative after:absolute after:bottom-[-4px] after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-teal-200 after:transition-all after:duration-300 cursor-pointer" target="_blank" rel="noopener">Speedlust Garage</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Container 5 (Contact) -->
+        <section class="max-w-6xl mx-auto min-h-screen mt-12 sm:mt-16 md:mt-20 px-4 sm:px-6 mb-10 md:mb-10 cursor-default">
+            <span id="contact" class="-mt-16 block absolute"></span>
+            <!-- Heading -->
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-[#121a24] mb-10 sm:mb-16">Find Us</h2>
+            
+            <!-- Google Maps -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
+                <!-- Map 1 -->
+                <div class="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg mb-6 sm:mb-10 h-[300px] sm:h-[350px] md:h-[400px]">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2064021491747!2d106.8031444!3d-6.4955319000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c348e8697123%3A0x7a76475ebb0da250!2sMOTOFINESSE!5e0!3m2!1sen!2sid!4v1746323621162!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Motofinesse location map"></iframe>
+                </div>
+                
+                <!-- Map 2 -->
+                <div class="relative bg-gray-200 rounded-xl overflow-hidden shadow-lg mb-6 sm:mb-10 h-[300px] sm:h-[350px] md:h-[400px]">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1982.9833787638931!2d106.9074234!3d-6.2681024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f30a65f2858f%3A0x808e788bb18a8a4a!2sSPEEDLUST%20GARAGE%20(CUCI%20HELM%20%26%20NANO%20COATING)!5e0!3m2!1sen!2sid!4v1746137580471!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Speedlust Garage location map"></iframe>
+                </div>
+            </div>
+                
+            <!-- Kartu Admin -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- Tokopedia -->
+                <a href="https://www.tokopedia.com/speedlustgarage?channel=" target="_blank" rel="noopener" class="bg-gray-100 rounded-xl shadow-lg p-3 flex items-center justify-center transition-transform duration-300 hover:scale-110" aria-label="Visit our Tokopedia store">
+                    <img src="/img/Tokopedia.png" alt="Tokopedia" class="h-8 w-auto md:h-8">
+                </a>
+                
+                <!-- Admin Bogor -->
+                <a href="https://wa.me/6285770602010" target="_blank" rel="noopener" class="bg-gray-100 rounded-xl shadow-lg p-3 flex items-center justify-center transition-transform duration-300 hover:scale-110" aria-label="Contact Admin Bogor via WhatsApp">
+                    <img src="/img/Whatsapp.png" alt="WhatsApp" class="-ml-3 h-10 w-auto md:h-12"><span class="font-medium ml-1">Admin Bogor</span>
+                </a>
+                
+                <!-- Admin Jakarta -->
+                <a href="https://wa.me/6282317746627" target="_blank" rel="noopener" class="bg-gray-100 rounded-xl shadow-lg p-2 flex items-center justify-center transition-transform duration-300 hover:scale-110" aria-label="Contact Admin Jakarta via WhatsApp">
+                    <img src="/img/Whatsapp.png" alt="WhatsApp" class="-ml-3 h-10 w-auto md:h-12"><span class="font-medium ml-1">Admin Jakarta</span>
+                </a>
+                
+                <!-- Gmail -->
+                <a href="https://mail.google.com/mail/u/0/#sent?compose=GTvVlcSKkVNRwgbDjgvgpKFfzgbwqRfJgHwtmMmBTnbmNRgrLGQwDnSnGTTJjBShflzmcgPXPjGzp" target="_blank" rel="noopener" class="bg-gray-100 rounded-xl shadow-lg p-4 flex items-center justify-center transition-transform duration-300 hover:scale-110" aria-label="Contact us via email">
+                    <img src="/img/Gmail.png" alt="Gmail" class="w-10 h-auto sm:w-14">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#131a2c] text-white py-12 px-6 cursor-default">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Speedlust Garage -->
+                <div class="text-justify w-25 h-auto">
+                    <h2 class="text-2xl font-bold mb-4">Speedlust Garage</h2>
+                    <p class="text-gray-300 text-sm">
+                        Your helmet deserves the best care! At Speedlust Garage, we don't just clean – we refresh, protect, and level up your helmet game.
+                    </p>
+                </div>
+
+                <!-- Quick Access -->
+                <nav class="lg:ml-14" aria-label="Footer navigation">
+                    <h3 class="text-lg font-semibold mb-4">Quick Access</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white">> Home</a></li>
+                        <li><a href="#service" class="text-gray-300 hover:text-white">> Service</a></li>
+                        <li><a href="#review" class="text-gray-300 hover:text-white">> Reviews</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white">> Contact Us</a></li>
+                        <li><a href="./route/product.html" class="text-gray-300 hover:text-white">> Products</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Oder Here -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Order Here</h3>
+                    <a href="https://www.tokopedia.com/speedlustgarage?channel=" target="_blank" rel="noopener" class="text-gray-300 hover:text-white">> Tokopedia</a>
+                </div>
+
+                <!-- Contact Us -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="text-gray-300 text-sm mb-8">
+                        If you have any further questions, feel free to hit us.
+                    </p>
+                    <a href="https://wa.me/6285770602010" target="_blank" rel="noopener" class="bg-teal-200 text-gray-800 font-bold px-6 py-2 rounded-xl hover:bg-white hover:text-[#131a2c] hover:font-bold transition-all duration-200">
+                        Admin Bogor
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-sm text-gray-400">Copyright © 2025 Speedlust Garage</p>
+                </div>
+                <div class="flex space-x-6">
+                    <!-- Instagram -->
+                    <a href="https://speedlustgarage.taplink.id" target="_blank" rel="noopener" class="text-gray-400 hover:text-white" aria-label="Follow us on Instagram">
+                        <i class="fa-brands fa-instagram w-5 h-5" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

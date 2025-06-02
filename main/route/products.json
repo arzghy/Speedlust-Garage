@@ -1,0 +1,92 @@
+[
+    {
+        "id": "autocare",
+        "description": "Shampo Kendaraan Sabun Cuci Mobil, Motor dan Helm / SLash Shampo 500ML",
+        "image": "autocare1.png"
+    },
+    {
+        "id": "autocare",
+        "description": "Exterior Kit Package / Perawatan dan Pengkilap Motor dan Mobil",
+        "image": "autocare2.png"
+    },
+    {
+        "id": "autocare",
+        "description": "Clash Multipurpose / Trim Dressing / Pengkilap Exterior Kendaraan",
+        "image": "autocare3.png"
+    },
+    {
+        "id": "autocare",
+        "description": "Lap Microfiber Serbaguna/Wax/Coating 35x35 (320Gsm)",
+        "image": "autocare4.png"
+    },
+    {
+        "id": "autocare",
+        "description": "Parfum Helm Jaket Sepatu / Refresher Spray / Parfume",
+        "image": "autocare5.png"
+    },
+    {
+        "id": "autocare",
+        "description": "Parfum Helm Jaket Sepatu / Refresher Spray / Parfume",
+        "image": "autocare6.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "AGV K3SV Tartaruga Rossi - Size M - Original AGV 100%",
+        "image": "secondhand1.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "Arai RX7X Hayden Reset Size L 59-60 SNI",
+        "image": "secondhand2.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "Arai Quantum J Repaint Cuatom - Size S",
+        "image": "secondhand3.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "Helm Airoh GP500 Sectors Black Yellow Matt (L) Italy",
+        "image": "secondhand4.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "SIMPSON Venom Black Glossy Size XL",
+        "image": "secondhand5.png"
+    },
+    {
+        "id": "secondhand",
+        "description": "Airoh GP500GRIM White - Size L",
+        "image": "secondhand6.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Parfum Helm Jaket Sepatu / Refresher Spray / Parfume",
+        "image": "accesories1.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Visor Cleaner / Glass Guard / Pembersih Kaca",
+        "image": "accesories2.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Exterior Kit Package / Perawatan dan Pengkilap Motor dan Mobil",
+        "image": "accesories3.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Clash Multipurpose / Trim Dressing / Pengkilap Exterior Kendaraan",
+        "image": "accesories4.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Lap Microfiber Serbaguna/Wax/Coating 35x35 (320Gsm)",
+        "image": "accesories5.png"
+    },
+    {
+        "id": "accesories",
+        "description": "Cardo Packtalk Bold JBL Intercom",
+        "image": "accesories6.png"
+    }
+]
