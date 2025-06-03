@@ -11,8 +11,8 @@ export const theme = {
         marquee: 'marquee 10s linear infinite',
         },
         fontFamily: {
-            sans: ['Jakarta Sans', 'Poppins', 'Open Sans', 'sans-serif']
-        }
+            sans: ['Jakarta Sans', 'Poppins', 'Open Sans', sans-serif],
+        },
     },
 };
 export const plugins = [];
